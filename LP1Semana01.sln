@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuPrograma", "MeuPrograma\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariousTypes", "VariousTypes\VariousTypes.csproj", "{F50E6F9A-8EF2-4408-B408-614FA8DBDCCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManyStrings", "ManyStrings\ManyStrings.csproj", "{0CFF7D85-7359-4E49-A79F-288B1EFA6D7E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F50E6F9A-8EF2-4408-B408-614FA8DBDCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50E6F9A-8EF2-4408-B408-614FA8DBDCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50E6F9A-8EF2-4408-B408-614FA8DBDCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFF7D85-7359-4E49-A79F-288B1EFA6D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFF7D85-7359-4E49-A79F-288B1EFA6D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFF7D85-7359-4E49-A79F-288B1EFA6D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFF7D85-7359-4E49-A79F-288B1EFA6D7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
