@@ -19,8 +19,13 @@ namespace VariousTypes
             Console.WriteLine(numbertwo);
             Console.WriteLine(numberfive);
 
+            char star = '\u272D';
+            char arrow = '\u2192';
+            char infinity = '\u221E';
             
-        
+            Console.WriteLine(star);
+            Console.WriteLine(arrow);
+            Console.WriteLine(infinity);
         }
     }
 }
