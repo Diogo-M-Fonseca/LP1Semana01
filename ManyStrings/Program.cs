@@ -30,6 +30,16 @@ namespace ManyStrings
             Console.WriteLine(interpolacao);
             Console.WriteLine(interpol);
 
+            double xx = 1.23456;
+            int ii = 19;
+
+            string xx1 = $"{xx:f2}, {xx:p1}";
+            string ii1 = $"{ii:x}, {ii:c}";
+
+            Console.WriteLine(xx1);
+            Console.WriteLine(ii1);
+
+
         }
     }
 }
