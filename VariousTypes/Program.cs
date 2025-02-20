@@ -35,6 +35,11 @@ namespace VariousTypes
             Console.WriteLine(halfthree);
             Console.WriteLine(longone);
 
+            bool correct = 1 < 2;
+            bool wrong = 2 < 1;
+
+            Console.WriteLine(correct);
+            Console.WriteLine(wrong);
         }
     }
 }
