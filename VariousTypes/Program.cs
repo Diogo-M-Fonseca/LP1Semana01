@@ -26,6 +26,15 @@ namespace VariousTypes
             Console.WriteLine(star);
             Console.WriteLine(arrow);
             Console.WriteLine(infinity);
+
+            float halfone = 0.5f;
+            double halfthree = 1.5;
+            long longone = 1111111111111L;
+
+            Console.WriteLine(halfone);
+            Console.WriteLine(halfthree);
+            Console.WriteLine(longone);
+
         }
     }
 }
