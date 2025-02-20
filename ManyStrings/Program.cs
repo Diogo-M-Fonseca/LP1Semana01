@@ -15,6 +15,20 @@ namespace ManyStrings
 
             Console.WriteLine(ola);
             Console.WriteLine(eu);
+
+            int x = 1;
+            int y = 2;
+
+            string conta = "a" + 2;
+            string contax = "abc" + x;
+
+            string interpolacao = $"valor de x e' {x}";
+            string interpol = $"{x} mais {y} e' igual a {x + y}";
+            
+            Console.WriteLine(conta);
+            Console.WriteLine(contax);
+            Console.WriteLine(interpolacao);
+            Console.WriteLine(interpol);
         }
     }
 }
