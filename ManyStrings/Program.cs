@@ -22,13 +22,24 @@ namespace ManyStrings
             string conta = "a" + 2;
             string contax = "abc" + x;
 
-            string interpolacao = $"valor de x e' {x}";
-            string interpol = $"{x} mais {y} e' igual a {x + y}";
+            string interpolacao = $"valor de x é {x}";
+            string interpol = $"{x} mais {y} é igual a {x + y}";
             
             Console.WriteLine(conta);
             Console.WriteLine(contax);
             Console.WriteLine(interpolacao);
             Console.WriteLine(interpol);
+
+            double xx = 1.23456;
+            int ii = 19;
+
+            string xx1 = $"{xx:f2}, {xx:p1}";
+            string ii1 = $"{ii:x}, {ii:c}";
+
+            Console.WriteLine(xx1);
+            Console.WriteLine(ii1);
+
+
         }
     }
 }
