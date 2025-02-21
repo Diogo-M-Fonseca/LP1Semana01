@@ -4,6 +4,7 @@ using System.Text;
 
 
 
+
 namespace Smiley
 {
     public class Program
@@ -12,7 +13,7 @@ namespace Smiley
         {
             Console.WriteLine("Insere código:");
             string read = Console.ReadLine();
-            int conv = int.Parse(read);
+            int conv = System.Int32.Parse(read, NumberStyles.HexNumber);
             Console.OutputEncoding=Encoding.UTF8;
             string asw = char.ConvertFromUtf32(conv);
             Console.WriteLine(asw);
